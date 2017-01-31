@@ -7,8 +7,13 @@ rougel-ike-saves/
 url/
 template/
 tutorial/
-ac-comphist.dat/
-network-security.data/
-recentf/
+ac-comphist.dat
+network-security.data
+recentf
 elisp/auto-install/
 elisp/hand-install/
+.scratch
+.DS_Store
+tramp
+snippets/
+roguel-ike-saves/
