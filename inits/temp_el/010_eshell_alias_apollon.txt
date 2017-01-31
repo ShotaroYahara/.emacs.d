@@ -1,7 +1,0 @@
-;;eshellのalias
-;;apollon関連のショートカットはこちらに
-
-;;リストの追加　参考：http://d.hatena.ne.jp/higepon/20070303/1172922429
-
-
-
