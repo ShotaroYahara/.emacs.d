@@ -1,0 +1,128 @@
+git commit -m "日付修正"
+git push origin yahara/CheckGacha0202
+git branch
+git checkout yahara/UpdateDailyMission2017-01-31
+git checkout yahara/CheckGacha0202
+git status
+make codeGen
+git status
+git add .
+git commit -m "日付変更"
+git push origin yahara/CheckGacha0202
+git checkout reset --hard HEAD^^
+git status
+git reset --hard HEAD^^
+git checkout DataDeploy2017-02-02 apollon-sqlgen/src/main/resources/csv/Event/EventCampaign.csv 
+git checkout origin/DataDeploy2017-02-02 apollon-sqlgen/src/main/resources/csv/Event/EventCampaign.csv 
+git status
+git add .
+git commit -m "日付修正"
+git status
+git push -f origin yahara/CheckGacha0202
+make codeGen
+git push origin yahara/CheckGacha0202
+git checkout DataDeploy2017-02-02Debug
+git stash
+git checkout DataDeploy2017-02-02Debug
+git checkout yahara/CheckGacha0202 apollon-sqlgen/src/main/resources/csv/Event/EventCampaign.csv 
+git status
+make codeGen
+git status
+git add .
+git commit -m "日付修正"
+git push origin DataDeploy2017-02-02Debug
+git pull
+git status
+e apollon-sqlgen/src/main/resources/csv/Event/EventCampaign.csv
+git status
+git add .
+git commit -m "コリジョン解消"
+git push origin DataDeploy2017-02-02Debug
+mysql.server start
+sbt rung
+sbt ru
+sbt run
+e apollon-sqlgen/src/main/resources/csv/Event/EventCampaign.csv
+git sutatus
+make codeGen
+git add .
+git commit -m "コリジョン修正し忘れ"
+git push origin DataDeploy2017-02-02Debug
+git checkout DataDeploy2017-02-02 apollon-sqlgen/src/main/resources/csv/Event/EventCampaign.csv
+git checkout origin DataDeploy2017-02-02 apollon-sqlgen/src/main/resources/csv/Event/EventCampaign.csv
+git checkout origin/DataDeploy2017-02-02 apollon-sqlgen/src/main/resources/csv/Event/EventCampaign.csv
+git status
+e apollon-sqlgen/src/main/resources/csv/Event/EventCampaign.csv
+git status
+git add .
+git commit -m "日付修正"
+git push origin DataDeploy2017-02-02Debug
+git branch
+git branch --all
+git checkout -b yahara/AddLeonidasBadge
+git checkout develop
+git branch -D yahara/AddLeonidasBadge
+git checkout -b yahara/AddLeonidasBadge origin/DataDeploy2017-01-31
+ls
+git status
+make codeGen
+git satus
+git status
+git add .
+git commit -m "レオニダスバッチ作成"
+git push yahara/AddLeonidasBadge
+git push origin yahara/AddLeonidasBadge
+git checkout DataDeploy2017-01-31Debug
+git satus
+git status
+git pull
+git status
+git add .
+git stash
+git branch
+git stash clear
+git branch
+git checkout develop
+git 
+git branch
+git branch -D   DataDeploy2017-01-31Debug
+git branch -D   yahara/AddLeonidasBadge
+git branch -D 
+git branch -D   yahara/AddGacha20170131
+git branch
+git branch -D   yahara/ChangeBot
+git branch   yahara/CheckGacha0202
+git branch
+git branch -D   yahara/CheckGacha0202
+git branch
+git branch -D   DataDeploy2017-02-02Debug
+git branch 
+git checkout -b yahara/AddItem2017-02-14 develop
+git branch
+cd ../
+ls
+cd mycraft/
+ls
+cd sh
+ls
+v apollonClientRun.sh 
+ls
+cd ../
+ls
+cd esh/
+ls
+v apollonLocalRun.esh 
+. apollonLocalRun.esh 
+e apollonLocalRun.esh 
+. apollonLocalRun.esh 
+client
+apollon
+ls
+cd apollon-client/
+ls
+gitstatus
+cd ../mycraft/esh
+ls
+. apollonLocalRun.esh 
+ls
+. apollonLocalRun.esh 

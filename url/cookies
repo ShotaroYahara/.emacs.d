@@ -1,0 +1,21 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".google.co.jp"
+  [url-cookie "NID" "84=W8KEHMJeQVILWcRFBZFYVl5JV04QMIRYQ-ZJXTYlHIb7ph9Wnzpp8fuR_7W5RdsxkKcQvNTuqjQ_hIwuXQzldwFjGv5zym_d9n2OMfbauEsmmqtB2Z1DKhaiiMgalyQh" "22-Feb-2017 07:51:08.00 GMT" "/" ".google.co.jp" nil]
+  [url-cookie "HttpOnly" nil "22-Feb-2017 07:51:08.00 GMT" "/" ".google.co.jp" nil])
+ (".qiita.com"
+  [url-cookie "_qiita_login_session" "cGNvL01LNlNMUk1ydFNHSzdEWEJQWGZUS1k3MG5mb1VTZE9qT0VrcTV1dld6ZWkzcnJkejF3dW5yRDROQjNZcTFtV1hpcTlMQ1NVb29ycUlxTFE5Mkc4S1VzcXo2U2cwdDFISmgzQU5vK1VRTElJcEo5WDRWanF4NW5pZ2ZBd014bnRZVDhCUnRmSFZESjF5VlA4Q1UxTHAyRVhKRU9lcXN3NTNOdTNQTjM1RVZJbDBmWHEraTRpZDZwUlpuN3dFLS1aMERpNTJleFdEa3ZGajc1N3JXQ1lnPT0%3D--7cd6f0f73aa96cb135c630ad240552bc309482f3" "Thu, 18 Jan 2018 05:23:56 -0000" "/" ".qiita.com" nil]
+  [url-cookie "HttpOnly" nil "Thu, 18 Jan 2018 05:23:56 -0000" "/" ".qiita.com" nil])
+ (".connpass.com"
+  [url-cookie "Max-Age" "31449600" "13-Jan-2018 05:26:19.00 GMT" "/" ".connpass.com" nil]
+  [url-cookie "connpass-csrftoken" "goL70ptXFv0xWKgVEJJGgPZyUOvBGNHm" "13-Jan-2018 05:26:19.00 GMT" "/" ".connpass.com" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:
