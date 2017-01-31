@@ -1,0 +1,44 @@
+;;eshellのalias
+;;zoffy関連のショートカットはこちらに
+
+;;リストの追加　参考：http://d.hatena.ne.jp/higepon/20070303/1172922429
+
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "zst1" "ssh zoffy_st1"))
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "zpro" "ssh management"))
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "zoffy" "cd /Users/shotaroyahara/Documents/GTE/zoffy"))
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "client" "cd /Users/shotaroyahara/Documents/GTE/zoffy/zoffy2-client"))
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "server" "cd /Users/shotaroyahara/Documents/GTE/zoffy/zoffy2-server"))
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "Master" "cd /Users/shotaroyahara/Documents/GTE/zoffy/Master"))
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "master" "cd /Users/shotaroyahara/Documents/GTE/zoffy/Master/master"))
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "design" "cd /Users/shotaroyahara/Documents/GTE/zoffy/designData"))
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "resource" "cd /Users/shotaroyahara/Documents/GTE/zoffy/zoffy2-client/zoffy2-resources"))
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "zmycraft" "cd /Users/shotaroyahara/Documents/GTE/zoffy/mycraft"))
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "mob" "find-file /Users/shotaroyahara/Documents/GTE/zoffy/zoffy2-client/zoffy2-resources/CCB_sub/Mob"))
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "equipment" "find-file /Users/shotaroyahara/Documents/GTE/zoffy/zoffy2-client/zoffy2-resources/CCB_sub/equipment"))
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "zinit" ". /Users/shotaroyahara/Documents/GTE/zoffy/mycraft/esh/auto-update.esh"))
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "st1_up" ". /Users/shotaroyahara/Documents/GTE/zoffy/mycraft/esh/st1_up.esh $1 $2"))
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "st1_ch" ". /Users/shotaroyahara/Documents/GTE/zoffy/mycraft/esh/st1_ch.esh $1 $2"))
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "replace_date" "ruby /Users/shotaroyahara/Documents/GTE/zoffy/mycraft/rb/replace_date.rb $1"))
+
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "mysql_start" "sudo msyql.server start"))
+
+;; (add-to-list 'eshell-command-aliases-list
+;;              (list "Inmysql" "mysql -u root -pjwlp719tera zoffy2_master"))
+
