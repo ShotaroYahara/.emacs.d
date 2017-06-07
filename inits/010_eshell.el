@@ -19,8 +19,6 @@
 (setq eshell-cmpl-cycle-completions nil)
 ;;補完候補がこの数値以下だとサイクルせずに候補表示
 (setq eshell-cmpl-cycle-cutoff-length 5)
+
 ;; 履歴で重複を無視する
 (setq eshell-hist-ignoredups t)
-;; prompt の初まりを指定 (C-a で"$ "の次にカーソルがくるようにする)
-;; これの設定を上手くしとかないとタブ補完も効かなくなるっぽい
-(setq eshell-prompt-regexp "^.*λ  ")

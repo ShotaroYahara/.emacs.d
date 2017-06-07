@@ -42,10 +42,6 @@
 
 ;;; カーソルの点滅を止める
 (blink-cursor-mode 0)
-;;; カーソルの位置が何文字目かを表示する
-(column-number-mode t)
-;;; カーソルの位置が何行目かを表示する
-(line-number-mode t)
 
 ;;; スクロールを一行ずつにする
 (setq scroll-step 1)
@@ -85,7 +81,7 @@
 ;;;参考：http://d.hatena.ne.jp/kaosf/20110614/1308065265
 (add-hook 'after-init-hook (lambda()
     (setq w (selected-window))
-    (setq w2 (split-window w (- (window-height w) 4)))
+    (setq w2 (split-window w (- (window-height w) 16)))
     (select-window w2)
     (eshell)
     (select-window w)

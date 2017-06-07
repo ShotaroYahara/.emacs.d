@@ -1,0 +1,233 @@
+d
+
+欲しい事前情報：
+ボイスデータ (及びおそらくは SkillSE なども一緒に入れることになる)
+セリフの設定
+カード会話 (テキスト及び 学生/武将のどちらが喋るのか)
+召喚時
+挨拶
+
+バトル開始時の掛け合い設定 (誰と誰が どう(敵味方, 味方同士etc) いるのか )
+Situation 毎の 再生する Voice の指定
+作業手順：
+ボイスデータの追加 (クライアント側)
+下記 csv にデータ設定 (サーバ側)
+ScenarioClientData.csv
+ScenarioWordsClientData.csv
+CombinationAppearanceClientData.csv
+CombinationClientData.csv
+DialogueClientData.csv
+TalkClientData.csv
+
+
+/Applications/Unity/Unity.app/Contents/MacOS/Unity -projectPath /users/s_yahara/Documents/apollon/apollon-client/
+
+sbt runAdmin
+
+sbt run
+
+Twitterアクセストークン
+@aptw_test
+client = Twitter::REST::Client.new(
+  consumer_key:        "lGPs1mi5ryzemhqRBsvflzkmq",
+  consumer_secret:     "TYSXrd8OaYUMUcIzvQYZmlsxfNcfZLZLD0A0j4C41OIhOzSPb1",
+  access_token:        "822427849172733953-1HmjIP7lGXKjzmaD4lQ0ZCd3UF5YGiz",
+  access_token_secret: "oUlZqb2gm3n91oKq4c7NgiUuWn4WKjvbgP6jW59alRCYL",
+)
+
+@CodeApsaras
+client = Twitter::REST::Client.new(
+  consumer_key:        "CoIquJ9wQ0LBhzTWRf8EE34G6",
+  consumer_secret:     "8b29jYbgg0mcGWxJmHz5EqSkGWGwsn2xEQohPglttYCUJKw47N",
+  access_token:        "823896021151334401-CstE52IAK9FPXcS49KQrwzgQWePcRHs",
+  access_token_secret: "UW5x4x7P2cl3REFoYRqTdJPUtp27eh3uz5PiZOwnp2esA",
+)
+
+
+@2Hydrogen_oxide
+client = Twitter::REST::Client.new(
+  consumer_key:        "ECamra02bqq2ADHq9QdQRyucT",
+  consumer_secret:     "P17lGbUgzy7mcYCpeoGEonICdkPMtIuqWeTMymi5sgwrzMWDZS",
+  access_token:        "825587406124355584-fYMMOIwivRyOwKQbpkjUtzyflDN5hwx",
+  access_token_secret: "B7nd2LfyNzF0MMyDww9uwUchRcHyzoFETVzkH1cpI9kgJ",
+)
+
+
+Twitter_bot環境作成
+
+環境
+
+Java
+emacs
+brew
+
+mysql
+jenkins
+
+rbenv ruby-build
+ruby 2.4.0
+
+Gem twitter
+Gem mysql2
+
+olg-mode バベル
+
+go-to-adress mode
+
+
+第3回大帝国杯1部リーグ別4-10位の報酬です
+
+第21回帝国杯リーグ別4-10位の報酬です
+
+
+第21回帝国杯リーグ別1位の報酬です
+{"list":[{"type":3,"quantity":0,"itemId":1000011,"exp":0,"rp":5,"limitLevel":1,"name":"1000011:戦の魂(ノーマル)","beginDate":1480053601,"limitBreak":0},{"type":3,"quantity":0,"itemId":1000011,"exp":0,"rp":5,"limitLevel":1,"name":"1000011:戦の魂(ノーマル)","beginDate":1480053601,"limitBreak":0},{"type":3,"quantity":0,"itemId":1000011,"exp":0,"rp":5,"limitLevel":1,"name":"1000011:戦の魂(ノーマル)","beginDate":1480053601,"limitBreak":0},{"type":3,"quantity":0,"itemId":1000011,"exp":0,"rp":5,"limitLevel":1,"name":"1000011:戦の魂(ノーマル)","beginDate":1480053601,"limitBreak":0},{"type":3,"quantity":0,"itemId":1000011,"exp":0,"rp":5,"limitLevel":1,"name":"1000011:戦の魂(ノーマル)","beginDate":1480053601,"limitBreak":0},{"type":5,"quantity":5,"itemId":104,"exp":0,"rp":0,"limitLevel":0,"name":"104:経験値アップ特大","beginDate":null,"limitBreak":0}],"beginDate":1492481964}
+
+
+第21回帝国杯リーグ別2位の報酬です
+{"list":[{"type":3,"quantity":0,"itemId":1000011,"exp":0,"rp":5,"limitLevel":1,"name":"1000011:戦の魂(ノーマル)","beginDate":1480053601,"limitBreak":0},{"type":3,"quantity":0,"itemId":1000011,"exp":0,"rp":5,"limitLevel":1,"name":"1000011:戦の魂(ノーマル)","beginDate":1480053601,"limitBreak":0},{"type":3,"quantity":0,"itemId":1000011,"exp":0,"rp":5,"limitLevel":1,"name":"1000011:戦の魂(ノーマル)","beginDate":1480053601,"limitBreak":0},{"type":3,"quantity":0,"itemId":1000011,"exp":0,"rp":5,"limitLevel":1,"name":"1000011:戦の魂(ノーマル)","beginDate":1480053601,"limitBreak":0},{"type":3,"quantity":0,"itemId":1000011,"exp":0,"rp":5,"limitLevel":1,"name":"1000011:戦の魂(ノーマル)","beginDate":1480053601,"limitBreak":0},{"type":5,"quantity":3,"itemId":104,"exp":0,"rp":0,"limitLevel":0,"name":"104:経験値アップ特大","beginDate":null,"limitBreak":0}],"beginDate":1492481985}
+
+
+リーグ別
+
+・RP育てるの大変という意見があるから、初心者向けに最初からRPがある程度たまってるキャラを、ガチャから出すのはどうか。
+
+・対人戦のモチベーションのために、
+・・・毎週日曜日24時の時点で在籍するリーグで報酬出したらどうか。一週間で10戦以上した人を対象とするとか。
+・・・月間勝利数、勝率などで表彰したらどうか。野球の打率、防御率など、いろいろカテゴリーつくって。
+
+・ノーマルミッションで、現状はシルバーリーグ到達、ゴールドリーグ到達とかだけど、さらに細分化して目標をあたえるのはどうか。
+
+・上記以外でも、ノーマルミッションはもっとたくさんあった方がいい。
+
+・初心者向け、勝ちパターンができない人向け、デッキの作り方が分からない人向けに、
+・・・ノーマルミッションでオススメの組み合わせを作らせたらどうか。剣攻撃アップ+かばうでたたかう、とか。
+・・・定番キャラはいつでも手に入れられるようにしたらどうか。オセロニアは龍のオススメキャラとかがいつでも手に入れられるダンジョンがあるらしく、最初はそれを使ってデッキを考えるらしい。
+・・・べたにお知らせを使って、オススメキャラとかデッキとかを定期的に紹介したらどうか。諸葛亮は前に出すなとか。
+・・・動画みない人向けに、パズエン塾の記事版みたいな感じはどうか。もしくはパズエン塾を動画だけじゃなく要約した文章もつけたらどうか。
+・・・ホームのパズエンTVを初心者攻略みたいなアイコンにして、動画以外にも上記のお知らせをまとめたらどうか。
+・・・または、新キャラのお知らせに毎回キャラの特徴が書かれてるから、それをまとめて上記の初心者攻略のところに置いといたらどうか。いまの特殊覚醒キャラ一覧みたいな感じ。
+
+・オセロニアには本来プラットホーム規約違反のはずの招待機能がある。グレーなら検討してみてはどうか。画像ももらいました。
+
+・グリーのカスタマーサポートは業界ナンバーワンらしい。これはサイバーの人が言ってた。サイゲームのcsもグリーがやってるらしい。これは内緒。ゲームの改善要望とかきたら、ただ返信するだけじゃなく、期間がたって改善したあとにも連絡するらしい。時には直筆の手紙を出すらしい。デレステでは、「お客様は〇〇推しとのことですが、私も:heavy_multiplication_x::heavy_multiplication_x:推しでお気持ちはとても分かります。・・・」といった心のこもった返信をするらしい。
+
+富田、419資料
+
+バトルUUよりもクエストUUの減衰が激しい→バトルへの積極的な誘導
+
+インストールn日以内のプレイヤーへの程赫々アイテム販売
+購入ターゲットを明確にした販売手法を検討
+
+ファン囲い込み企画
+Twitter名にパズエンを入れているユーザーへのプレゼントなど
+
+マネタイズ→デッキを増やす
+
+
+富田さん来客！ 5/19 14:00
+
+声優さんのキャンペーン
+
+8日から入った施作で1日、3日は多少上がった
+
+3日以降をいかに落とさずに行かないように
+
+あとは、売り方の問題！
+
+施策によって、ゲームへの理解度が上がってるはず→それによって、7日、30日の数字が
+増えるはず！
+→もっと良くなってほしいかなぁというところ
+3〜7日に課題があるかもね
+
+* 対人戦で勝てない
+* 壁を感じている
+* やれない
+
+続けている人と続けていない人の差がどこかにあるはず
+アナザーエデンをクリアしてないけど、パズエンしている。
+
+面白さを伝えるのが難しい！
+
+Topプレイヤーが金を使わない
+→できれば一月10万くらい入れたい
+
+次の大きな機能をどこに入れているかなという話
+
+ARPPUと中級ユーザーの定着率
+
+--
+
+大会時間の延長（マッチングに影響受けやすい）
+
+イベントの幅を広げる
+連戦する！（闘技場）
+
+階層別でデッキが使えるよ！
+
+SR縛りをさせるとか
+SRオンリー大会
+コスト縛り大会
+ギミック対戦やっても上の人が勝つだろう（多分）
+縛りデッキ大会
+
+ギミックで無理やり、エントリー時点の方がわかりやすいよね
+
+中級層が楽しめるのか上級層が楽しめるのか
+スキルMax対戦とか
+
+＜パッシブ対戦＞
+スキルカウンター
+攻撃カウンター
+
+シルバーあたりの壁をどう解決していくか
+シルバーの活躍の幅を開いていく
+
+大会が面白いけど、下の方が良くわからないからその辺がね…（汗）
+
+* パズル
+* 配置
+* スキル
+
+この辺の見せ方が難しい
+
+例えばコンボ数の増加＝上達が実感できる
+
+ミッションをおいてあげる→クリアできなさそうな時になんかできないかな？？
+
+◯◯日以内にクリアすると報酬が多いよ！（先にやってもらう）
+
+ミッションシートに期限をつけると、達成率が上がる！
+
+1Week〜10日限定
+
+おすすめミッション機能！
+通常ミッションはあればあるだけいい！
+
+ミッションすっごい大事！
+
+工数かからずに検討できるところ
+
+* URをLにする権利をあげる
+* URを持ってなさそうな感じ→ガチャ回してもらう
+
+そういうのがないと飽きが来て課金額が伸びなくなる
+
+学校別勢力図
+キャラ別勢力図
+
+キャラ別ポイントランキングを作る！（グループ分ける）
+チームレイド！
+
+水着キャラに！？
+
+装備品は明らかに売りに来たなみたいな感じになるかも
+
+属性はいいかも
+
+
+◯◯キラーを作る
+
+Welcome to the Emacs shell
+
+

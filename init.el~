@@ -81,7 +81,7 @@
 ;;│   ├── 741_php-completion.el        ;php-completionの設定
 ;;│   ├── 750_js2-mode.el              ;js2-modeの設定
 ;;│   ├── 751_typescript-mode.el       ;typescript-modeの設定
-;;│   ├── 751_tss.el                   ;tssの設定
+;;│   ├── 751_tide-mode.el             ;tideの設定
 ;;│   ├── 990_init.el                  ;起動時の環境設定あれこれ
 ;;│   ├── 990_mode.el                  ;メジャーモード、マイナーモード関連の設定あれこれ
 ;;│   └── 999_overriding-minor-mode-keymap.el   ;全てのモードで割り当てたいキーはここに　
@@ -187,7 +187,7 @@
     (helm-source-buffers-list helm-source-recentf helm-source-files-in-current-dir helm-source-emacs-commands-history helm-source-emacs-commands)))
  '(package-selected-packages
    (quote
-    (eshell-manual esh-help tss company tide typescript-mode twittering-mode ruby-mode ruby-refactor anzu rubocop flycheck helm csharp-mode helm-rdefs roguel-ike robe auto-highlight-symbol ruby-block ruby-electric yatex undo-tree sequential-command php-mode php-completion org2blog omnisharp magit js2-mode inkpot-theme init-loader helm-ag flycheck-pos-tip exec-path-from-shell eshell-prompt-extras ensime dsvn auto-install auto-compile))))
+    (tss company tide typescript-mode twittering-mode ruby-mode ruby-refactor anzu rubocop flycheck helm csharp-mode helm-rdefs roguel-ike robe auto-highlight-symbol ruby-block ruby-electric yatex undo-tree sequential-command php-mode php-completion org2blog omnisharp magit js2-mode inkpot-theme init-loader helm-ag flycheck-pos-tip exec-path-from-shell eshell-prompt-extras ensime dsvn auto-install auto-compile))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

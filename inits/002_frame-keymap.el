@@ -1,23 +1,6 @@
 
 (load "move_window_frame")
 
-;;フレームを削除
-;;フレームが一個なら、emacsを終了
-;; 
-(defun my-delete-frame ()
-  (interactive)
-  (if (null (cdr (frame-list)))
-      (save-buffers-kill-terminal)
-    (delete-frame)))
-
-;;ウィンドウが一個なら、そのフレームを削除
-;;フレームが一個なら、emacsを終了
-(defun my-delete-window ()
-  (interactive)
-  (if (one-window-p)
-      (my-delete-frame)
-    (delete-window)))
-
 ;; windmoveを仕様
 ;; 参考:http://d.hatena.ne.jp/supermassiveblackhole/20101218/1292665209
 ;; 反対側のウィンドウにいけるように
