@@ -81,8 +81,7 @@
 ;;;参考：http://d.hatena.ne.jp/kaosf/20110614/1308065265
 (add-hook 'after-init-hook (lambda()
     (setq w (selected-window))
-    (setq w2 (split-window w (- (window-height w) 16)))
-    (select-window w2)
-    (eshell)
+    (setq w2 (split-window-right))
     (select-window w)
+    (eshell)
     ))

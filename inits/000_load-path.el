@@ -10,3 +10,5 @@
       (append
        (list (expand-file-name "~/.emacs.d/elisp/work")) load-path))
 
+
+(package-initialize)

@@ -8,18 +8,21 @@
 ;;package.elをとりあえず読み込む
 
 (require 'package)
+(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/") t)
+(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (package-initialize)
 
 (require 'cl)
 
-;;ファイル分割
+;;ファイル分割;;
 ;;ファイル分割の指針参考：http://qiita.com/akisute3@github/items/7dce94f770e6f3f0b26c
-;(require 'init-loader-x "~/.emacs.d/elisp/auto-install/init-loader-x")
+;;(require 'init-loader-x "~/.emacs.d/elisp/auto-install/init-loader-x")
 (require 'init-loader)
 (init-loader-load "~/.emacs.d/inits")
 
 ;; emcas-clientが起動してないならさせる。
-; server start for emacs-client
+;; server start for emacs-client
 (require 'server)
 (unless (server-running-p)
   (server-start))
@@ -32,8 +35,8 @@
 ;;│   └── work/                        ;自作elisp用
 ;;├── elpa/                            ;package.elでinstallしたファイルの保存先
 ;;├── template/                        ;各フォーマットのテンプレート置き
-;;|   |                                ;（将来的に拡張してこっから自動コピーしたい）
-;;│   ├── xyz_template.el              ;inits/　に置くようのelファイルのtemplate
+;;│   |                                ;（将来的に拡張してこっから自動コピーしたい）
+;;│   └── xyz_template.el              ;inits/　に置くようのelファイルのtemplate
 ;;├── init.el                          ;このファイル
 ;;├── inits/
 ;;│   ├── 000_init.el                  ;全体の細々とした設定の設定
@@ -187,10 +190,26 @@
     (helm-source-buffers-list helm-source-recentf helm-source-files-in-current-dir helm-source-emacs-commands-history helm-source-emacs-commands)))
  '(package-selected-packages
    (quote
-    (eshell-manual esh-help tss company tide typescript-mode twittering-mode ruby-mode ruby-refactor anzu rubocop flycheck helm csharp-mode helm-rdefs roguel-ike robe auto-highlight-symbol ruby-block ruby-electric yatex undo-tree sequential-command php-mode php-completion org2blog omnisharp magit js2-mode inkpot-theme init-loader helm-ag flycheck-pos-tip exec-path-from-shell eshell-prompt-extras ensime dsvn auto-install auto-compile))))
+    (use-package ensime sbt-mode scala-mode auto-install helm-rdefs package yasnippet init-loader))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:background "black" :foreground "#55FF55")))))
+
+
+;;ちょっと便利な関数をメモ
+;;いずれファイルを作ってそこに打ち込む…と思う
+;;参考：https://www.emacswiki.org/emacs/AddCommasToNumbers
+(defun add-number-grouping (number &optional separator)
+  "Add commas to NUMBER and return it as a string.
+    Optional SEPARATOR is the string to use to separate groups.
+    It defaults to a comma."
+  (let ((num (number-to-string number))
+        (op (or separator ",")))
+    (while (string-match "\\(.*[0-9]\\)\\([0-9][0-9][0-9].*\\)" num)
+      (setq num (concat 
+                 (match-string 1 num) op
+                 (match-string 2 num))))
+    num))
